@@ -1,41 +1,23 @@
-# Lab 2 – Audio & Video Webpage
+# 💻 CSE 110 - Lab 3: Video & Audio Webpage
 
-This is the second lab project for my Web Development course.  
-It demonstrates how to embed video and audio elements in an HTML page without the use of CSS.
+Welcome to my Lab 3 project for **CSE 110 - Software Engineering**!  
 
-## 🔗 Live Website
+---
 
-👉 [Visit the page here](https://lisafritsche.github.io/lab2_page_video_audio/)
+## 🌐 GitHub Pages Link
 
-## 📄 Project Description
+📍 [Click here to visit the site](https://lisafritsche.github.io/sp25-cse110-lab3/)
 
-- This page includes a short self-recorded video which sums up the first meeting for everyone who had not attended it.
-- The audio track has been extracted from the video and is also embedded separately.
-- No CSS was used, as required by the assignment.
+---
 
-## 🛠️ Technologies Used
+## 📁 Project Contents
 
-- HTML5 (audio and video tags)
-- Git & GitHub
-- GitHub Pages for deployment
+This repository includes:
 
-## ✅ Validation
+- `index.html` – the main webpage
+- `meeting_minutes.html` – meeting documentation with embedded audio & video
+- Audio files 🎧 & Video files 🎥
+- Screenshots 🖼️ & visual assets
+- Team roles and descriptions
+- A `README.md` file (this one!)
 
-The project has passed the [W3C Markup Validation Service](https://validator.w3.org/).
-
-A screenshot of the validation report (with no errors or warnings) is included in the `/screenshots` folder.
-
-## Optional: Accessibility Check ✅
-
-An accessibility check was performed using Chrome Developer Tools (Lighthouse).  
-The result: **100% Accessibility Score** 🎉
-
-➡️ The screenshot of the report can be found in the `screenshots/` folder.  
-Filename: `accessibility-score.png`
-![Accessibility Score Screenshot](screenshots/accessibility-score.png)
-
-## 🧩 Part 2 – Scavenger Hunt
-
-In Part 2 of this lab, I used browser Developer Tools (DevTools) to uncover hidden passcodes embedded in the HTML and CSS of the Lab 2 Scavenger Hunt website.
-By inspecting elements, source files, and styles, I successfully found and recorded all required passcodes.
-These codes have been included in the repository as part of the submission.
