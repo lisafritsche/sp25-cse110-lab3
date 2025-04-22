@@ -21,3 +21,9 @@ This repository includes:
 - Team roles and descriptions
 - A `README.md` file (this one!)
 
+---
+
+## 📝 Issues
+
+### Issue 1: Set Up Project Repository and Initial Structure
+
