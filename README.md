@@ -26,4 +26,5 @@ This repository includes:
 ## 📝 Issues
 
 ### Issue 1: Set Up Project Repository and Initial Structure
+### Issue 2: Implement Basic Functionality for Feature X
 
