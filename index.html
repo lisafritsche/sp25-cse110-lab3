@@ -2,93 +2,178 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="author" content="Lisa Fritsche">
-    <meta name="description" content="Meeting Minutes for our team project">
-    <title>Pomodoro Timer - First Brainstorm</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Meeting Minutes</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+      /* === Internal CSS-block === */
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 0;
+        color: #333;
+      }
+
+      header {
+        background-color: hsl(210, 100%, 60%);
+        color: white;
+        padding: 1rem;
+        text-align: center;
+      }
+
+      main {
+        background-color: lightyellow;
+        padding: 1.5rem;
+      }
+
+      h1, h2, h3 {
+        margin-bottom: 0.5rem;
+      }
+
+      ul, ol {
+        padding-left: 1.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .important {
+        font-weight: bold;
+        color: darkred;
+      }
+
+      section {
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 2rem;
+        padding-bottom: 1rem;
+      }
+
+      figure {
+        margin: 0;
+        text-align: center;
+      }
+
+      figcaption {
+        font-style: italic;
+        margin-top: 0.5rem;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+      }
+
+      p:hover, li:hover {
+        color: darkorange;
+        cursor: default;
+      }
+
+      @media (max-width: 600px) {
+        body {
+          background-color: #fff0f5;
+        }
+
+        main {
+          padding: 1rem;
+        }
+
+        header h1 {
+          font-size: 1.4rem;
+        }
+      }
+    </style>
   </head>
   <body>
     <header>
-        <h1>Pomodoro Timer – First Brainstorm</h1>
-        <h2>Meeting Topic: Brainstorming</h2>
-        <h3>Date: April 14, 2025</h3>
-      </header>
-    
-      <main>
-        <section>
-            <h2>Attendance</h2>
-            <ul>
-              <li>Christoph Koelsch</li>
-              <li>Paul Fritz</li>
-              <li>Vanessa Reich</li>
-              <li>Viola Wollenweber</li>
-              <li>Finja Sterner</li>
-              <li>Lisa Fritsche</li>
-            </ul>
-          </section>
-          <section>
-            <h2>Agenda</h2>
-            <ol>
-              <li>Welcome and check-in</li>
-              <li>Team status updates</li>
-              <li>Discussion: Pomodoro Timer features</li>
-              <li>Task distribution</li>
-              <li>Wrap-up and next steps</li>
-            </ol>
-          </section>
-          <section>
-            <h2>Unfinished Business</h2>
-            <ul>
-              <li>Finalize wireframe designs</li>
-              <li>Assign team roles for project development</li>
-              <li>Confirm deadline for first prototype</li>
-            </ul>
-          </section>
-          <section>
-            <h2>New Business</h2>
-            <ul>
-              <li>Discuss potential UI design themes</li>
-              <li>Set timeline for backend API development</li>
-              <li>Decide on tools for team communication</li>
-            </ul>
-          </section>
-          <section>
-            <h2>Team Roles Diagram</h2>
-            <figure>
-              <img src="team-roles.svg.SVG" alt="Diagram showing the different roles in the team" style="max-width: 100%; height: auto;">
-              <figcaption>Overview of the team role distribution after our first meeting.</figcaption>
-            </figure>
-          </section>
-          <section id="intro-media">
-            <h2>Team Introduction Video</h2>
-          
-            <!-- Video Section -->
-            <video controls width="640">
-              <source src="meeting_minutes_video.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-          
-            <h2>Audio Version Only</h2>
-          
-            <!-- Audio Section -->
-            <audio controls>
-              <source src="meeting_minutes_audio.mp3" type="audio/mpeg">
-              Your browser does not support the audio element.
-            </audio>
-          </section>
-          <section>
-            <h2>Comments / Questions / Concerns</h2>
-            <ul>
-              <li>Should we consider accessibility features early on?</li>
-              <li>Concerns about meeting deadlines with current scope</li>
-              <li>Question: Will we have a design mockup before development starts?</li>
-            </ul>
-          </section>          
-      </main>
-    
-      <footer>
-        <p>Meeting minutes prepared by [Lisa Fritsche]</p>
-      </footer>
+      <h1>Pomodoro Timer – First Brainstorm</h1>
+      <h2>Meeting Topic: Brainstorming</h2>
+      <h3>Date: April 14, 2025</h3>
+    </header>
 
+    <main>
+      <section>
+        <h2>Attendance</h2>
+        <ul>
+          <li>Christoph Koelsch</li>
+          <li>Paul Fritz</li>
+          <li>Vanessa Reich</li>
+          <li>Viola Wollenweber</li>
+          <li>Finja Sterner</li>
+          <li>Lisa Fritsche</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Agenda</h2>
+        <ol>
+          <li>Welcome and check-in</li>
+          <li>Team status updates</li>
+          <li>Discussion: Pomodoro Timer features</li>
+          <li>Task distribution</li>
+          <li>Wrap-up and next steps</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Unfinished Business</h2>
+        <ul>
+          <li>Finalize wireframe designs</li>
+          <li>Assign team roles for project development</li>
+          <li>Confirm deadline for first prototype</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>New Business</h2>
+        <ul>
+          <li>Discuss potential UI design themes</li>
+          <li>Set timeline for backend API development</li>
+          <li>Decide on tools for team communication</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Team Roles Diagram</h2>
+        <figure>
+          <img src="team-roles.svg.SVG" alt="Diagram showing the different roles in the team">
+          <figcaption>Overview of the team role distribution after our first meeting.</figcaption>
+        </figure>
+      </section>
+
+      <section id="intro-media">
+        <h2>Team Introduction Video</h2>
+        <video controls width="100%">
+          <source src="meeting_minutes_video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+
+        <h2>Audio Version Only</h2>
+        <audio controls style="width: 100%;">
+          <source src="meeting_minutes_audio.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </section>
+
+      <section>
+        <h2>Comments / Questions / Concerns</h2>
+        <ul>
+          <li>Should we consider accessibility features early on?</li>
+          <li>Concerns about meeting deadlines with current scope</li>
+          <li>Question: Will we have a design mockup before development starts?</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>Meeting minutes prepared by Lisa Fritsche</p>
+    </footer>
   </body>
 </html>
