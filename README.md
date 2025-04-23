@@ -14,12 +14,13 @@ Welcome to my Lab 3 project for **CSE 110 - Software Engineering**!
 
 This repository includes:
 
-- `index.html` – the main webpage
-- `meeting_minutes.html` – meeting documentation with embedded audio & video
+- `index.html` – the main webpage, meeting documentation with embedded audio & video
 - Audio files 🎧 & Video files 🎥
 - Screenshots 🖼️ & visual assets
 - Team roles and descriptions
 - A `README.md` file (this one!)
+- CSS files for styling
+- Screenshot of CSS validation ✅
 
 ---
 
