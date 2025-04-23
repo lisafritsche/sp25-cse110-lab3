@@ -28,4 +28,5 @@ This repository includes:
 ### Issue 1: Set Up Project Repository and Initial Structure
 ### Issue 2: Implement Basic Functionality for Feature X
 ### Issue 3: Fix Bugs in User Authentication Module
+### Issue 4: Refactor Code for Readability and Efficiency
 
